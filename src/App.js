@@ -65,14 +65,14 @@ class Square extends React.Component {
 			return (
 				<Col className="d-flex flex-column square px-1">
 					<p>{this.props.val}</p>
-					<textarea rows="2" placeholder="(names)" onChange={this.handleChange}></textarea>
+					<textarea rows="2" placeholder="who'd ya meet?" onChange={this.handleChange}></textarea>
 				</Col>
 			);
 		} else {
 			return (
 				<Col className="d-flex flex-column square clicked px-1" onClick={this.handleClick}>
 					<p>{this.props.val}</p>
-					<textarea rows="2" placeholder="(names)" onChange={this.handleChange}></textarea>
+					<textarea rows="2" placeholder="who'd ya meet?" onChange={this.handleChange}></textarea>
 				</Col>
 			);
 		}
@@ -111,9 +111,9 @@ export class App extends React.Component {
 		return (
 			<div className="App container text-center my-sm-3">
 				<div className="title">
-					<h1 className="asa"><a href="#">ASA</a> Orientation Bingo</h1>
+					<h1 className="asa"><a href="http://www.cmuasa.org/" target="_blank" rel="noopener" className="red" >ASA</a> Orientation Bingo</h1>
 					<p>Try to find someone that's described by each box!</p>
-					<p>Fill out the <a href="#">Check-in Form</a> for our <a href="#">Contact Sheet!</a></p>
+					<p>Fill out the <a href="#" className="red">Check-in Form</a> for our <a href="#" className="red">Contact Sheet!</a></p>
 				</div>
 				<Container>
 					<BingoRow rowNum={0} />
@@ -122,8 +122,6 @@ export class App extends React.Component {
 					<BingoRow rowNum={3} />
 					<BingoRow rowNum={4} />
 				</Container>
-				<button className="btn btn-dark m-3">New Board</button>
-				<button className="btn btn-dark m-3">Clear Board</button>
 			</div>
 		);
 	}

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Indie+Flower&family=Quicksand&display=swap');
+
 .App {
   text-align: center;
   border: solid 3px #9C0000;
@@ -19,23 +20,20 @@
   font-weight: bold;
 }
 
-a {
-  font-weight: bold;
-  color: #9C0000;
-}
-
-a:hover{
-  font-weight: bold;
-  color: #9C0000;
-}
-
 .red {
   color: #9C0000;
+  font-weight: bold;
+
 }
 
+.red:hover {
+  color: #9C0000;
+}
+
+
 p {
-  font-family: 'Indie Flower', cursive;
-  margin: 0;
+  font-family: 'Architects Daughter', cursive;
+    margin: 0;
 }
 
 .square {
@@ -48,7 +46,6 @@ p {
   /* align horizontal */
   align-items: center;
   /* align vertical */
-  font-family: 'Indie Flower', cursive;
   font-size: 16px;
 }
 
@@ -56,6 +53,7 @@ textarea {
   max-width: 100%;
   text-align: center;
   overflow: scroll;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .clicked {
