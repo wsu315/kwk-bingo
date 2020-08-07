@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Indie+Flower&family=Quicksand&display=swap');
-
 .App {
   text-align: center;
   border: solid 3px #9C0000;
@@ -23,7 +22,6 @@
 .red {
   color: #9C0000;
   font-weight: bold;
-
 }
 
 .red:hover {
@@ -33,7 +31,13 @@
 
 p {
   font-family: 'Architects Daughter', cursive;
-    margin: 0;
+  margin: 0;
+}
+
+h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .square {
@@ -47,6 +51,16 @@ p {
   align-items: center;
   /* align vertical */
   font-size: 16px;
+}
+
+footer {
+  height: 100%;
+  padding: 0;
+}
+
+footer p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px
 }
 
 textarea {
@@ -74,12 +88,14 @@ textarea {
     height: 150px;
     border: 1px solid black;
   }
-
   .title {
     margin: 0;
     border: none;
     background: transparent;
   }
+  .asa {
+    font-size: 48px;
+}
 }
 
 ::-moz-selection {

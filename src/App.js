@@ -111,17 +111,35 @@ export class App extends React.Component {
 		return (
 			<div className="App container text-center my-sm-3">
 				<div className="title">
-					<h1 className="asa"><a href="http://www.cmuasa.org/" target="_blank" rel="noopener" className="red" >ASA</a> Orientation Bingo</h1>
-					<p>Try to find someone that's described by each box!</p>
-					<p>Fill out the <a href="#" className="red">Check-in Form</a> for our <a href="#" className="red">Contact Sheet!</a></p>
+					<h1 className="asa">
+						<a href="http://www.cmuasa.org/" target="_blank" rel="noopener noreferrer" className="red">
+							ASA
+						</a>{' '}
+						Orientation Bingo
+					</h1>
+					<h6 style={{"font-weight":"bold"}}>Try to find someone that's described by each box!</h6>
+					<h6 style={{"font-weight":"bold"}}>
+						Fill out the{' '}
+						<a href="http://www.cmuasa.org/checkin" className="red" target="_blank" rel="noopener noreferrer">
+							Check-in Form
+						</a>{' '}
+						for our{' '}
+						<a href="http://www.cmuasa.org/contact" className="red" target="_blank" rel="noopener noreferrer">
+							Contact Sheet!
+						</a>
+					</h6>
 				</div>
-				<Container>
+				<Container className="mb-3">
 					<BingoRow rowNum={0} />
 					<BingoRow rowNum={1} />
 					<BingoRow rowNum={2} />
 					<BingoRow rowNum={3} />
 					<BingoRow rowNum={4} />
 				</Container>
+				<footer>
+					<hr width="80%" />
+					<p>© 2020 Phi Henry Nguyen</p>
+				</footer>
 			</div>
 		);
 	}
