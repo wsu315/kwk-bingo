@@ -24,7 +24,7 @@ var vals = [
 	'Learned a tiktok dance in quarantine',
 	'Has been to 5+ raves/music festivals',
 	'Was born outside of the US (where?)',
-	'Gas worn colored contacts AND falsies',
+	'Has worn colored contacts AND falsies',
 	'Started a new project or hobby in quarantine',
 	'Dances often',
 	'Had big plans cancelled b/c of corona (what plans?)',
