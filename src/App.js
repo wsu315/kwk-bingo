@@ -20,7 +20,7 @@ var vals = [
 	'Plays an instrument (what instrument?)',
 	'Has painted the fence (with what org?)',
 	'Is involved in Greek life (what org?)',
-	'Got tested for corona',
+	'Tested negative for corona',
 	'Learned a tiktok dance in quarantine',
 	'Has been to 5+ raves/music festivals',
 	'Was born outside of the US (where?)',
@@ -35,8 +35,8 @@ var vals = [
 	'Has their name mispronounced often',
 	'Baked/cooked something new in quarantine',
 	'Has a pet (what pet?)',
-	'Excited about the fall semester (which part?)',
-	'Nervous or sad about the fall semester (which part?)',
+	'Read a book over break (which one?)',
+	'Nervous or sad about the spring semester (which part?)',
 	'Has had bubble tea 3+ days in a row before',
 ];
 shuffle(vals);
