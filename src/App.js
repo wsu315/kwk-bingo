@@ -115,7 +115,7 @@ export class App extends React.Component {
 						<a href="http://www.cmuasa.org/" target="_blank" rel="noopener noreferrer" className="red">
 							ASA
 						</a>{' '}
-						Orientation Bingo
+						Winter Welcome Bingo
 					</h1>
 					<h6 style={{"font-weight":"bold"}}>Try to find someone that's described by each box!</h6>
 					<h6 style={{"font-weight":"bold"}}>
