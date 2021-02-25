@@ -13,6 +13,9 @@ function shuffle(a) {
 	}
 	return a;
 }
+
+//lol what
+
 var vals = [
 	'Knows how to ski or snowboard',
 	'Has more than 2 siblings',
