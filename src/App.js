@@ -14,33 +14,31 @@ function shuffle(a) {
 	return a;
 }
 
-//lol what
-
 var vals = [
-	'Knows how to ski or snowboard',
-	'Has more than 2 siblings',
-	'Read a book over break (which one?)',
-	'Plays an instrument (what instrument?)',
-	'Plays a sport (what sport?)',
-	'Can speak and read another language',
-	'Took up a new hobby in 2020 (what hobby?)',
-	'Has an awful sleeping schedule',
-	'Prefers summer over winter',
-	'Is lactose intolerant',
-	'Is left-handed',
-	'Baked/cooked something new in 2020',
-	'Is born in February',
-	'First time coding at KWK',
-	'Prefers light mode',
-	'Has a pet',
-	'Prefers vanilla over chocolate',
-	'Loves sushi',
-	'Prefers Andriod over Apple',
-	'Knows how to embroider/knit/crochet',
-	'Prefers coffee over tea',
-	'Has overslept a Zoom class',
-	'Goes to class in PJs',
-	'Has cut their own hair or bangs',
+	'A meme',
+	'A selfie',
+	'Photo with a filter',
+	'An animal',
+	'Food',
+	'Nature',
+	'Kode With Klossy',
+	'Your favorite holiday',
+	'Your hometown',
+	'Mountains',
+	'Sunrise or sunset',
+	'Sunglasses',
+	'Your school',
+	'A bridge',
+	'A sport',
+	'A picture of textbook pages',
+	'A banana',
+	'A water bottle',
+	'A screenshot',
+	'Friends',
+	'A random video',
+	'Shoes',
+	'A baby',
+	'A rainbow'
 ];
 
 shuffle(vals);
@@ -69,14 +67,14 @@ class Square extends React.Component {
 			return (
 				<Col className="d-flex flex-column square px-1">
 					<p>{this.props.val}</p>
-					<textarea rows="2" placeholder="who did you meet?" onChange={this.handleChange}></textarea>
+					<textarea rows="2" placeholder="did you find a picture?" onChange={this.handleChange}></textarea>
 				</Col>
 			);
 		} else {
 			return (
 				<Col className="d-flex flex-column square clicked px-1" onClick={this.handleClick}>
 					<p>{this.props.val}</p>
-					<textarea rows="2" placeholder="who did you meet?" onChange={this.handleChange}></textarea>
+					<textarea rows="2" placeholder="did you find a picture?" onChange={this.handleChange}></textarea>
 				</Col>
 			);
 		}
@@ -92,7 +90,7 @@ class BingoRow extends React.Component {
 		var fifth = vals[this.props.rowNum * 5 + 4];
 
 		if (this.props.rowNum === 2) {
-			third = 'Loves KWK Campus (Free aka You!)';
+			third = 'a group photo of community hour later tonight (Free aka You!)';
 		}
 		if (this.props.rowNum === 4) {
 			fifth = vals[12];
@@ -116,10 +114,10 @@ export class App extends React.Component {
 			<div className="App container text-center my-sm-3">
 				<div className="title">
 					<h1 className="asa" id="title">
-							KWK Icebreaker Bingo
+							KWK Camera Roll Bingo
 					</h1>
-					<h6 style={{"font-weight":"bold"}}>Try to find a scholar that's described by each box!</h6>
-					<h6 style={{"font-weight":"bold"}}>Drop a screenshot of your bingo in the slack thread to get special prize :)</h6>
+					<h6 style={{"font-weight":"bold"}}>Find a picture in your camera roll that is described by each box</h6>
+					<h6 style={{"font-weight":"bold"}}>Drop a screenshot of your bingo in the #fun channel when you get bingo!</h6>
 				</div>
 				<Container className="mb-3">
 					<BingoRow rowNum={0} />
@@ -130,7 +128,7 @@ export class App extends React.Component {
 				</Container>
 				<footer>
 					<hr width="80%" />
-					<p>Adapted by Kimberly Gao from Phi Henry Nguyen</p>
+					<p>Adapted by Wendy Su from Kimberly Gao who adapted from Phi Henry Nguyen</p>
 				</footer>
 			</div>
 		);
