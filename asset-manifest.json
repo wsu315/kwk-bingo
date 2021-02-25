@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/kwk-bingo/static/css/main.d32c0360.chunk.css",
-    "main.js": "/kwk-bingo/static/js/main.716b39a2.chunk.js",
-    "main.js.map": "/kwk-bingo/static/js/main.716b39a2.chunk.js.map",
-    "runtime-main.js": "/kwk-bingo/static/js/runtime-main.70d12aee.js",
-    "runtime-main.js.map": "/kwk-bingo/static/js/runtime-main.70d12aee.js.map",
-    "static/js/2.fadbdd3a.chunk.js": "/kwk-bingo/static/js/2.fadbdd3a.chunk.js",
-    "static/js/2.fadbdd3a.chunk.js.map": "/kwk-bingo/static/js/2.fadbdd3a.chunk.js.map",
-    "index.html": "/kwk-bingo/index.html",
-    "precache-manifest.86e5a71fc990461b96a4b9d799b391b9.js": "/kwk-bingo/precache-manifest.86e5a71fc990461b96a4b9d799b391b9.js",
-    "service-worker.js": "/kwk-bingo/service-worker.js",
-    "static/css/main.d32c0360.chunk.css.map": "/kwk-bingo/static/css/main.d32c0360.chunk.css.map",
-    "static/js/2.fadbdd3a.chunk.js.LICENSE.txt": "/kwk-bingo/static/js/2.fadbdd3a.chunk.js.LICENSE.txt"
+    "main.css": "/kwk-camera-roll-bingo/static/css/main.7f83aff8.chunk.css",
+    "main.js": "/kwk-camera-roll-bingo/static/js/main.174cd309.chunk.js",
+    "main.js.map": "/kwk-camera-roll-bingo/static/js/main.174cd309.chunk.js.map",
+    "runtime-main.js": "/kwk-camera-roll-bingo/static/js/runtime-main.9d71501c.js",
+    "runtime-main.js.map": "/kwk-camera-roll-bingo/static/js/runtime-main.9d71501c.js.map",
+    "static/js/2.fadbdd3a.chunk.js": "/kwk-camera-roll-bingo/static/js/2.fadbdd3a.chunk.js",
+    "static/js/2.fadbdd3a.chunk.js.map": "/kwk-camera-roll-bingo/static/js/2.fadbdd3a.chunk.js.map",
+    "index.html": "/kwk-camera-roll-bingo/index.html",
+    "precache-manifest.56f3a5fa130f676f6791356d38f554ac.js": "/kwk-camera-roll-bingo/precache-manifest.56f3a5fa130f676f6791356d38f554ac.js",
+    "service-worker.js": "/kwk-camera-roll-bingo/service-worker.js",
+    "static/css/main.7f83aff8.chunk.css.map": "/kwk-camera-roll-bingo/static/css/main.7f83aff8.chunk.css.map",
+    "static/js/2.fadbdd3a.chunk.js.LICENSE.txt": "/kwk-camera-roll-bingo/static/js/2.fadbdd3a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.70d12aee.js",
+    "static/js/runtime-main.9d71501c.js",
     "static/js/2.fadbdd3a.chunk.js",
-    "static/css/main.d32c0360.chunk.css",
-    "static/js/main.716b39a2.chunk.js"
+    "static/css/main.7f83aff8.chunk.css",
+    "static/js/main.174cd309.chunk.js"
   ]
 }
