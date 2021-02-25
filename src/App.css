@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .App {
   text-align: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .asa {
-  font-family: 'Unica One', cursive;
+  font-family: 'Montserrat', cursive;
   font-size: 68px;
   font-weight: bold;
   color: #269444;
@@ -36,12 +36,12 @@ body {
 
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
@@ -65,7 +65,7 @@ footer {
 }
 
 footer p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px
 }
 
@@ -73,7 +73,7 @@ textarea {
   max-width: 100%;
   text-align: center;
   overflow: scroll;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .clicked {
